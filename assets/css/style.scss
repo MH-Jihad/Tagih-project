@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+img {
+  width: 100%;
+}
+
+iframe {
+  display: block;
+}
+
+.tagih__header {
+  background: #d0f1fd;
+  display: flex;
+  &_logo {
+    background-color: #ffffff;
+  }
+  &_search {
+    background: #d0f1fd;
+  }
+  &_search_icon input {
+    border: none;
+  }
+}
